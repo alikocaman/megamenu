@@ -1,0 +1,157 @@
+body{
+	background-color:#444444;
+}
+
+*{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.menu{
+
+height:60px;
+background-color:#A2A2A2;
+position: relative;
+}
+li{
+
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu li{
+
+	float: left;
+}
+.menu>li>a.home{
+
+
+}
+.duzmenu{
+
+	margin-left:300px;
+}
+
+.menu>ul>li>a
+{
+display: block;
+width: 100px;
+height:60px;
+color: white;
+border-right:2px solid rgba(0,0,0,.2);
+background-color: transparent;
+line-height: 70px;
+text-align: center;
+}
+
+.menu>ul>li>a:hover{
+
+	color:black;
+	background-color: white;
+}
+.ali{
+	position: absolute;
+
+	width:1000px;
+	height:500px;
+	background-color:white;
+	top:60px;
+	left:300px;
+	transition:5s;
+	display: none;
+
+	}
+
+a.caret:after{
+content:"\f0d7";
+font-family: "Font Awesome 5 Free";
+ font-weight: 900; 
+transition: 1s;
+
+
+
+}
+
+
+.menu>.duzmenu>li>a.ayni:hover .ali{
+display:block;
+
+
+}
+
+.menu>.duzmenu>li>a.ayni:hover a.caret:after {
+content:"selam";
+font-family: "Font Awesome 5 Free";
+ font-weight: 900; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clothing{
+	margin:10px 150px 30px 10px;
+	float: left;
+
+
+}
+.clothing h1{
+	color: rgba(0,0,0,.4);
+}
+.clothing span.meyveler{
+	display: block;
+	line-height: 20px;
+	color: blue;
+	
+}
+.clothing span.meyveler:hover{
+
+	text-decoration: underline;
+}
+.temizle{
+	clear: both;
+}
+.cizgi{
+	height: 1px;
+	width: 100%;
+	background-color:rgba(0,0,0,.3);
+}
+.canta{
+	margin:30px;
+	margin-left: 60px !important;
+	height:230px;
+	width:400px;
+	background-color:#A2A2A2;
+	float: left;
+	line-height: 230px;
+	background-image: url('canta.png');
+	background-repeat: no-repeat;
+	background-size:100px 100px;
+	background-position: right center;
+	text-align: center;
+}
+.canta .sale{
+
+	width: 150px;
+	height: 60px;
+	border:1px solid rgba(0,0,0,.2);
+	margin: 100px;
+
+	
+
+}
